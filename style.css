@@ -1,0 +1,141 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: auto;
+    margin: 50% auto;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.eq-img{
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.eq-img-link:link{
+    display: inline-block;
+    background-image: url('images/image-equilibrium.jpg');
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    background-size: cover;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.eq-img-link:hover{
+    background-image: url('images/icon-view.svg');
+}
+
+.eq-link:link{
+    color: white;
+    padding-left: 25px;
+    margin-top: 100px;
+    background-color: hsl(216, 50%, 16%);
+    text-decoration: none;
+}
+
+.eq-link:visited{
+    padding-top: 10px;
+    color: white;
+}
+
+.eq-link:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.eq-disc{
+    color: hsl(215, 51%, 70%);
+    padding: 0 25px;
+    background-color: hsl(216, 50%, 16%);
+
+
+}
+
+.nd-img{
+    padding-left: 25px;
+    padding-top: 15px;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+h5{
+    position: absolute;
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    background-color: hsl(216, 50%, 16%);
+    padding-left: 7px;
+    bottom: 91px;
+}
+
+.clock-img{
+    display: inline-block;
+    background-color: hsl(216, 50%, 16%);
+    padding-left: 200px;
+}
+
+.days-left{
+    position: absolute;
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    font-size: 13px;
+    bottom: 100px;
+    padding-left: 5px;
+}
+
+hr{
+    border-bottom: 1px thin #888;
+    margin: 20px 30px;
+}
+
+.avatar-img{
+    width: 30px;
+    background-color: hsl(216, 50%, 16%);
+    margin-left: 25px;
+    margin-bottom: 30px;
+    border-color: white;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.prelast{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    display: inline-block;
+    bottom: 25px;
+    padding-left: 15px;
+    background-color: hsl(216, 50%, 16%);
+
+}
+
+.last:link{
+    color: white;
+    /* background-color: hsl(216, 50%, 16%); */
+    text-decoration: none;
+
+}
+
+.last:visited{
+    color :white;
+}
+
+.last:hover{
+    color: hsl(178, 100%, 50%);
+}
