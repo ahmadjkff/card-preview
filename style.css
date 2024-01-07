@@ -13,18 +13,6 @@ body{
     
 }
 
-/* .eq-img{
-    display: inline-block;
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
-    background-size: cover;
-    text-decoration: none;
-} */
-
 .eq-img-link:link{
     display: inline-block;
     background-image: url('images/image-equilibrium.jpg');
@@ -33,27 +21,22 @@ body{
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     background-size: cover;
 }
 
 .eq-img-link:hover{
     background-image: url('images/icon-view.svg');
-    z-index: 2px;
     background-color: hsl(178, 100%, 50%,0.5);
 }
 
 .eq-link:link{
     color: white;
     padding-left: 25px;
-    margin-top: 100px;
-    background-color: hsl(216, 50%, 16%);
     text-decoration: none;
 }
 
 .eq-link:visited{
-    padding-top: 10px;
     color: white;
 }
 
@@ -64,15 +47,11 @@ body{
 .eq-disc{
     color: hsl(215, 51%, 70%);
     padding: 0 25px;
-    background-color: hsl(216, 50%, 16%);
-
-
 }
 
 .nd-img{
     padding-left: 25px;
     padding-top: 15px;
-    background-color: hsl(216, 50%, 16%);
 
 }
 
@@ -80,14 +59,12 @@ h5{
     position: absolute;
     display: inline-block;
     color: hsl(178, 100%, 50%);
-    background-color: hsl(216, 50%, 16%);
+    font-size: 15px;
     padding-left: 7px;
-    bottom: 91px;
+    bottom: 87px;
 }
 
 .clock-img{
-    display: inline-block;
-    background-color: hsl(216, 50%, 16%);
     padding-left: 200px;
 }
 
@@ -95,9 +72,8 @@ h5{
     position: absolute;
     display: inline-block;
     color: hsl(215, 51%, 70%);
-    background-color: hsl(216, 50%, 16%);
-    font-size: 13px;
-    bottom: 100px;
+    font-size: 15px;
+    bottom: 97px;
     padding-left: 5px;
 }
 
@@ -108,7 +84,6 @@ hr{
 
 .avatar-img{
     width: 30px;
-    background-color: hsl(216, 50%, 16%);
     margin-left: 25px;
     margin-bottom: 30px;
     border-color: white;
@@ -123,13 +98,11 @@ hr{
     display: inline-block;
     bottom: 25px;
     padding-left: 15px;
-    background-color: hsl(216, 50%, 16%);
 
 }
 
 .last:link{
     color: white;
-    /* background-color: hsl(216, 50%, 16%); */
     text-decoration: none;
 
 }
